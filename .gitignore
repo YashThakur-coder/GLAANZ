@@ -6,7 +6,9 @@ node_modules/
 backend/.env
 backend/node_modules/
 backend/error.log
-backend/*.json
+backend/meenakari_output.json
+backend/neck02_output.json
+backend/output.json
 backend/check_*.js
 backend/delete_*.js
 backend/fix_*.js
