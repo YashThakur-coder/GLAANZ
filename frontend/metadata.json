@@ -1,0 +1,7 @@
+{
+  "name": "GLAANZ - Shine Forever",
+  "description": "An elegant e-commerce platform for high-quality imitation jewelry in India, featuring an AI-powered personal stylist powered by Gemini.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
