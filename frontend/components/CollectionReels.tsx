@@ -210,7 +210,7 @@ const CollectionReels: React.FC<CollectionReelsProps> = ({ selectedCategory, onC
               <div className="lg:w-3/5 relative bg-stone-950 flex items-center justify-center overflow-hidden h-[30%] sm:h-1/2 lg:h-full">
                 <img src={CATEGORY_META[spotlightCategory].poster} className={`absolute inset-0 w-full h-full object-cover ${!videoError[spotlightCategory] ? 'opacity-30 blur-xl scale-110' : 'opacity-100 scale-100'}`} alt="" />
                 {!videoError[spotlightCategory] ? (
-                  <video autoPlay loop muted playsInline preload="metadata" poster={CATEGORY_META[spotlightCategory].poster} className="w-full h-full object-cover opacity-90 relative z-10 transition-opacity duration-1000">
+                  <video autoPlay loop muted playsInline poster={CATEGORY_META[spotlightCategory].poster} className="w-full h-full object-cover opacity-90 relative z-10 transition-opacity duration-1000">
                     <source src={CATEGORY_META[spotlightCategory].video} type="video/mp4" />
                   </video>
                 ) : (
