@@ -1,0 +1,23 @@
+# Root folder one-time ignores
+.env
+node_modules/
+
+# Backend ignores
+backend/.env
+backend/node_modules/
+backend/error.log
+backend/*.json
+backend/check_*.js
+backend/delete_*.js
+backend/fix_*.js
+backend/find_*.js
+backend/remove_*.js
+backend/update_*.js
+backend/verify*.js
+backend/test_db.js
+backend/seeder.js
+
+# Frontend ignores
+frontend/node_modules/
+frontend/dist/
+frontend/.env
