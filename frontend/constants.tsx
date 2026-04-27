@@ -31,13 +31,13 @@ export const PRODUCTS: Product[] = [
 
   // --- BANGLES (5 Items) ---
   { id: 'ban-01', isBestseller: true, name: 'Gajra Gold Bangles Set', category: Category.BANGLES, price: 1100, description: 'Micro-plated gold.', imageUrl: '/image/Gajra Gold Bangles Set.png', detailImages: ['/image/Gajra Gold Bangles Set 2.png', '/Videos/Gajra Gold Bangles Set video.mp4'] },
-  { id: 'ban-02', name: 'Designer AD Kada Set', category: Category.BANGLES, price: 2100, description: 'Party wear sparkle.', imageUrl: 'https://images.unsplash.com/photo-1611085583191-a3b1a30a8a0a?auto=format&fit=crop&q=80&w=800', detailImages: ['/image/Designer AD Kada Set.png'] },
-  { id: 'ban-03', name: 'Antique Temple Bangles', category: Category.BANGLES, price: 1800, description: 'Antique matte finish.', imageUrl: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=80&w=800', detailImages: ['/image/Antique Temple Bangles.jpg'] },
-  { id: 'ban-04', name: 'Oxidized Tribal Bangles', category: Category.BANGLES, price: 750, description: 'Daily wear oxidized.', imageUrl: 'https://images.unsplash.com/photo-1611085583191-a3b1a30a8a0a?auto=format&fit=crop&q=80&w=800', detailImages: ['/image/Oxidized Tribal Bangles.png'] },
-  { id: 'ban-05', name: 'Royal Velvet Bangle Mix', category: Category.BANGLES, price: 1450, description: 'Traditional mix.', imageUrl: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=80&w=800', detailImages: ['/image/Royal Velvet Bangle Mix.png'] },
+  { id: 'ban-02', name: 'Designer AD Kada Set', category: Category.BANGLES, price: 2100, description: 'Party wear sparkle.', imageUrl: '/image/designer-ad-kada-set.png', hoverImageUrl: '/image/designer-ad-kada-set.png', detailImages: ['/image/designer-ad-kada-set.png'] },
+  { id: 'ban-03', name: 'Antique Temple Bangles', category: Category.BANGLES, price: 1800, description: 'Antique matte finish.', imageUrl: '/image/antique-temple-bangles.jpg', hoverImageUrl: '/image/antique-temple-bangles.jpg', detailImages: ['/image/antique-temple-bangles.jpg'] },
+  { id: 'ban-04', name: 'Oxidized Tribal Bangles', category: Category.BANGLES, price: 750, description: 'Daily wear oxidized.', imageUrl: '/image/oxidized-tribal-bangles.png', hoverImageUrl: '/image/oxidized-tribal-bangles.png', detailImages: ['/image/oxidized-tribal-bangles.png'] },
+  { id: 'ban-05', name: 'Royal Velvet Bangle Mix', category: Category.BANGLES, price: 1450, description: 'Traditional mix.', imageUrl: '/image/royal-velvet-bangle-mix.png', hoverImageUrl: '/image/royal-velvet-bangle-mix.png', detailImages: ['/image/royal-velvet-bangle-mix.png'] },
 
   // --- KADA (1 Item) ---
-  { id: 'kada-01', name: 'Antique Elephant Kada', category: Category.BANGLES, price: 1450, description: 'Elephant head motif.', imageUrl: 'https://images.unsplash.com/photo-1611085583191-a3b1a30a8a0a?auto=format&fit=crop&q=80&w=800', detailImages: ['/image/Antique Elephant Kada.jpg', '/Videos/Antique Elephant Kada video.mp4'] }
+  { id: 'kada-01', name: 'Antique Elephant Kada', category: Category.BANGLES, price: 1450, description: 'Elephant head motif.', imageUrl: '/image/antique-elephant-kada.jpg', hoverImageUrl: '/image/antique-elephant-kada.jpg', detailImages: ['/image/antique-elephant-kada.jpg', '/Videos/Antique Elephant Kada video.mp4'] }
 ];
 
 export const CATEGORIES = Object.values(Category);
